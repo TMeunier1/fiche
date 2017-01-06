@@ -4,6 +4,17 @@ background-color:white;
 background-image:url(/home/tibau/Code/fiche/Photos/background.jpg);
 background-repeat: no-repeat;
 background-size:cover;
+padding-bottom: 200px;
+}
+div#background {
+    background-image:url(/home/tibau/Code/fiche/Photos/horizontal.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    height: 200px;
+    width: 100%;
+    position: fixed;
+    bottom: 10px;
 }
 li {
     color: red;
@@ -16,7 +27,7 @@ label {
 }
 h1 {
     margin: 0 5em;
-    font-size: 2.5em;
+    font-size: 3em;
     background-color: blue;
     background-position: center;
     border: 5px solid green;
@@ -26,6 +37,22 @@ h1 {
     border-width: 5px;
     text-align: center;
 }
+h1#biographie {
+    margin: 0 5;
+    font-size: 3em;
+    background-color: blue;
+    background-position: center;
+    border: 5px solid green;
+    border-left-style: dotted;
+    border-right-style: dotted;
+    border-radius: 3em;
+    border-width:5px;
+    text-align:center;
+}
+img{
+    display: inline-block;;
+    margin: 0 auto;
+}
 a {
     color: red;
 }
@@ -34,6 +61,11 @@ a:hover {
 }
 a:visited {
     color: yellow;
+}
+p {
+    font-family:fantasy;
+    margin-top: 1.5em;
+    background-color:blue;
 }
 label.identite {
     font-weight: bold;
@@ -46,7 +78,6 @@ label.coordonnees {
 li#adresse1 {
     display:inline-block;
     text-align: left;
-    margin-top: 10em;
 }
 li#adresse2 {
     margin-left: 25em;
