@@ -1,0 +1,55 @@
+body {
+color:black;
+background-color:white;
+background-image:url(/home/tibau/Code/fiche/Photos/background.jpg);
+background-repeat: no-repeat;
+background-size:cover;
+}
+li {
+    color: red;
+    text-align: center;
+    font-size: 1.5em;
+    list-style-type: none;
+}
+label {
+    color: #9A85C5;
+}
+h1 {
+    margin: 0 5em;
+    font-size: 2.5em;
+    background-color: blue;
+    background-position: center;
+    border: 5px solid green;
+    border-left-style: dotted;
+    border-right-style: dotted;
+    border-radius: 3em;
+    border-width: 5px;
+    text-align: center;
+}
+a {
+    color: red;
+}
+a:hover {
+    color: green;
+}
+a:visited {
+    color: yellow;
+}
+label.identite {
+    font-weight: bold;
+}
+label.coordonnees {
+    display:inline-block;
+    font-weight: bold;
+    color:#5D801A;
+}
+li#adresse1 {
+    display:inline-block;
+    text-align: left;
+    margin-top: 10em;
+}
+li#adresse2 {
+    margin-left: 25em;
+    display:inline-block;
+    text-align: right;
+}
