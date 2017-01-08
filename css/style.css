@@ -1,13 +1,13 @@
 body {
-color:black;
-background-color:white;
-background-image:url(/home/tibau/Code/fiche/Photos/background.jpg);
-background-repeat: no-repeat;
-background-size:cover;
-padding-bottom: 200px;
-}
+    color:black;
+    background-color:white;
+    background-image:url(/home/tibau/Code/fiche/Photos/background.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding-bottom: 200px;
+    }
 div#background {
-    background-image:url(/home/tibau/Code/fiche/Photos/horizontal.jpg);
+    background-image:url(/home/tibau/Code/fiche/Photos/Terre.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size:cover;
@@ -37,18 +37,6 @@ h1 {
     border-width: 5px;
     text-align: center;
 }
-h1#biographie {
-    margin: 0 5;
-    font-size: 3em;
-    background-color: blue;
-    background-position: center;
-    border: 5px solid green;
-    border-left-style: dotted;
-    border-right-style: dotted;
-    border-radius: 3em;
-    border-width:5px;
-    text-align:center;
-}
 img{
     display: inline-block;;
     margin: 0 auto;
@@ -62,25 +50,40 @@ a:hover {
 a:visited {
     color: yellow;
 }
-p {
-    font-family:fantasy;
-    margin-top: 1.5em;
-    background-color:blue;
-}
 label.identite {
     font-weight: bold;
 }
 label.coordonnees {
     display:inline-block;
     font-weight: bold;
-    color:#5D801A;
+    color:#15500F;
 }
 li#adresse1 {
     display:inline-block;
     text-align: left;
+    margin-right: 25em;
+    margin-bottom: 2.5em;
 }
 li#adresse2 {
-    margin-left: 25em;
     display:inline-block;
     text-align: right;
+}
+h1#biographie {
+    margin: 0 5;
+    font-size: 3em;
+    background-color: blue;
+    background-position: center;
+    border: 5px solid green;
+    border-left-style: dotted;
+    border-right-style: dotted;
+    border-radius: 3em;
+    border-width:5px;
+    text-align:center;
+}
+p {
+    font-family:fantasy;
+    margin-top: 1.5em;
+    background-color:blue;
+    color: #9A85C5;
+    border: 5px solid green;
 }
