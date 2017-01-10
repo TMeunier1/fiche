@@ -1,11 +1,23 @@
 body {
-    color:black;
-    background-color:white;
-    background-image:url(/home/tibau/Code/fiche/Photos/background.jpg);
-    background-repeat: no-repeat;
-    background-size:cover;
-    padding-bottom: 200px;
-    }
+    background-color: lightslategrey;
+}
+header {
+}
+nav {
+    background-color: #6699ff;
+    border: 2px solid green;
+    border-radius: 3em;
+    margin-bottom: 1em;
+    margin-left: 17em;
+    width: 45em;
+}
+li.sommaire {
+display: inline-block;
+margin-left: 1em;
+}
+img#profil {
+    margin-left: 67em;
+}
 div#background {
     background-image:url(/home/tibau/Code/fiche/Photos/Terre.jpg);
     background-repeat: no-repeat;
@@ -14,7 +26,9 @@ div#background {
     height: 200px;
     width: 100%;
     position: fixed;
-    bottom: 10px;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 li {
     color: red;
@@ -23,18 +37,17 @@ li {
     list-style-type: none;
 }
 label {
-    color: #9A85C5;
+    color: #282828;
 }
 h1 {
     margin: 0 5em;
     font-size: 3em;
-    background-color: blue;
+    background-color: #6699ff;
     background-position: center;
-    border: 5px solid green;
+    border: 2px solid green;
     border-left-style: dotted;
     border-right-style: dotted;
     border-radius: 3em;
-    border-width: 5px;
     text-align: center;
 }
 img{
@@ -69,21 +82,29 @@ li#adresse2 {
     text-align: right;
 }
 h1#biographie {
-    margin: 0 5;
+    margin: 0 5em;
     font-size: 3em;
-    background-color: blue;
+    background-color: #6699ff;
     background-position: center;
-    border: 5px solid green;
+    border: 2px solid green;
     border-left-style: dotted;
     border-right-style: dotted;
     border-radius: 3em;
     border-width:5px;
     text-align:center;
 }
+section {
+    border-radius: 0.6em;
+}
 p {
     font-family:fantasy;
     margin-top: 1.5em;
-    background-color:blue;
-    color: #9A85C5;
-    border: 5px solid green;
+    background-color: #6699ff;
+    color: #282828;
+    border: 2px solid green;
+    border-radius: 0.6em;
+    padding: 1em
+}
+section#contact {
+    margin-bottom: 250px
 }
