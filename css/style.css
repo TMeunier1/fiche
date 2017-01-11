@@ -42,7 +42,7 @@ li {
 label {
     color: #282828;
 }
-h1 {
+h2 {
     margin: 0 5em;
     font-size: 3em;
     background-color: #6699ff;
@@ -74,6 +74,9 @@ label.coordonnees {
     font-weight: bold;
     color:#15500F;
 }
+label.formulaire {
+    color:red;
+}
 li#adresse1 {
     display:inline-block;
     text-align: left;
@@ -84,18 +87,7 @@ li#adresse2 {
     display:inline-block;
     text-align: right;
 }
-h1#biographie {
-    margin: 0 5em;
-    font-size: 3em;
-    background-color: #6699ff;
-    background-position: center;
-    border: 2px solid green;
-    border-left-style: dotted;
-    border-right-style: dotted;
-    border-radius: 3em;
-    border-width:5px;
-    text-align:center;
-}
+
 section {
     border-radius: 0.6em;
 }
