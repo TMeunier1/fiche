@@ -1,5 +1,5 @@
 body {
-    background-image:url(/home/tibau/Code/fiche/Photos/background);
+    background-image:url(../Photos/background);
     background-repeat: no-repeat;
     background-position: center;
     background-size:cover;
@@ -32,7 +32,7 @@ img#profil {
     margin-left: 67em;
 }
 div#background {
-    background-image:url(/home/tibau/Code/fiche/Photos/Terre.jpg);
+    background-image:url(../Photos/Terre.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size:cover;
